@@ -517,23 +517,14 @@ html {
 .email-flex {
   margin-left: 10px;
 }
-
-fieldset {
-  width: 450px;
-  padding: 5px 10px;
-  border-radius: 10px;
+input[type='text'], input[type='email'], textarea{
+  display: block;
+  width: 300px;
+  margin: 7px 0;
+  padding: 3px 7px;
 }
-
-fieldset .name, .email, .subject, .textarea {
-  padding: 4px 8px;
-  width: 100%;
-  border: 1px solid;
-  border-radius: 3px;
-  margin: 5px 0;
-}
-
-fieldset legend {
-  padding: 0 4px;
+.input-personal-details textarea{
+  height: 80px;
 }
 
 /*fieldset .subject {*/
