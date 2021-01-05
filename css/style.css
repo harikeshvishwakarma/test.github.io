@@ -554,17 +554,8 @@ fieldset .textarea {
 .footer-class {
   text-align: center;
   padding: 20px 0;
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
-.top-button {
-  position: absolute;
-  top: 15px;
-  right: 10px;
-  cursor: pointer;
-}
 
 .footer-class span {
   color: red;
