@@ -531,21 +531,19 @@ input[type='text'], input[type='email'], textarea{
 /*  padding: 4px 10px;*/
 /*}*/
 
-fieldset .textarea {
-  height: 100px;
-  resize: none;
-  padding: 4px 10px;
-
-}
 
 /* end contact me css */
 
 /* start footer css */
 
 .footer-class {
+  width: 100%;
+  height: 50px;
+  /*margin: auto 0;*/
   text-align: center;
-  padding: 20px 0;
-}
+  background: #00C9A7;
+  line-height: 50px;
+  }
 
 
 .footer-class span {
