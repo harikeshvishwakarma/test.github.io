@@ -176,6 +176,7 @@ html {
 
 .text-about, .text-services, .text-skill, .text-team, .text-contact {
   width: 150px;
+  height: 10vh;
   position: relative;
   text-align: center;
 }
@@ -202,6 +203,7 @@ html {
 
 .about-photo-details, .total-skill-details, .all-contact-details {
   width: 100%;
+  height: calc(100vh - 10vh);
   display: flex;
   justify-content: space-around;
   align-items: center;
